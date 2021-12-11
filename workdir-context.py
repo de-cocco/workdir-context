@@ -16,13 +16,12 @@ def workdir(path):
         TypeError: If path is not string
     """
     
+    if not isinstance(path, str):
+        raise TypeError('Path should be a string')
+    
     try:
-        if not isinstance(path, str):
-            raise TypeError('Path should be a string')
-        
         prev_wd = os.getcwd()
         os.chdir(path)
         yield
-        
     finally:
         os.chdir(prev_wd)
