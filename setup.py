@@ -10,5 +10,5 @@ setup(
     author='Dominic Decocco',
     install_requires=['os', 'contextlib']
 
-    py_modules=['workdir_context'],
+    py_modules=['workdir_context']
 )
