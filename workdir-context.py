@@ -1,3 +1,5 @@
+__version__ = 'v1.0.0'
+
 import os
 from contextlib import contextmanager
 
