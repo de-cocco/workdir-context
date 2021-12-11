@@ -8,7 +8,7 @@ setup(
 
     url='https://github.com/de-cocco/workdir-context',
     author='Dominic Decocco',
-    install_requires=['os', 'contextlib']
+    install_requires=['os', 'contextlib'],
 
     py_modules=['workdir_context']
 )
