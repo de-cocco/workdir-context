@@ -9,7 +9,7 @@ def workdir(path):
     Takes a path and provides a context with that path as working directory.
     
     Args:
-        path (str): path the working directory should be changed to.
+        path (str): Path the working directory should be changed to.
     
     Yields:
         None
